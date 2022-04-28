@@ -34,6 +34,12 @@ body {
 
 @media (max-width:1020px) {
     .logo {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width:730px) {
+    .logo {
         display: none;
     }
 }
