@@ -4,7 +4,7 @@ body {
 
 .card-body {
     background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("images/tech3.jpg");
-    height: 100vh;
+    height: 100%;
     width: 100%;
     background-size: cover;
     background-position: center;
