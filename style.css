@@ -31,3 +31,9 @@ body {
     border-radius: 50%;
     padding: 0.5rem 1rem;
 }
+
+@media (max-width:1020px) {
+    .logo {
+        display: none;
+    }
+}
