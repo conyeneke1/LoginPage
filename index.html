@@ -10,77 +10,79 @@
 </head>
 <body>
 
-    <div class="card-body p-md-4 text-light h-100"> 
-        <p class="logo pl-4 pt-2">Jiza <span>Tech</span></p>
-        <div class="row d-flex justify-content-center">
-        <div class="real-form col-md-10 col-lg-6 col-xl-6 order-2 order-lg-1">
-
-            <p class="text-center h1 fw-bold mb-4 mx-1 mx-md-4 mt-2 mb-4">Sign up</p>
-
-            <form>
-            <div class="form-group mb-3">
-                <label for="firstname">First Name <span class="text-danger">*</span></label>
-                <input required type="text" class="form-control" id="firstname" placeholder="Enter your first name">
-            </div>
-            <div class="form-group mb-3">
-                <label for="lastname">Last Name <span class="text-danger">*</span></label>
-                <input required type="text" class="form-control" id="lastname" placeholder="Enter your last name">
-            </div>
-
-            <div class="form-row">
-                <div class="form-group col-md-6 mb-3">
-                    <label for="email">Email <span class="text-danger">*</span></label>
-                    <input required type="email" class="form-control" id="email" placeholder="Email">
+    <div class="container-fluid">
+        <div class="card-body p-md-4 text-light"> 
+            <p class="logo pl-4 pt-2">Jiza <span>Tech</span></p>
+            <div class="row d-flex justify-content-center">
+            <div class="real-form col-md-10 col-lg-6 col-xl-6 order-2 order-lg-1">
+    
+                <p class="text-center h1 fw-bold mb-4 mx-1 mx-md-4 mt-2 mb-4">Sign up</p>
+    
+                <form>
+                <div class="form-group mb-3">
+                    <label for="firstname">First Name <span class="text-danger">*</span></label>
+                    <input required type="text" class="form-control" id="firstname" placeholder="Enter your first name">
                 </div>
-                <div class="form-group col-md-6 mb-3">
-                    <label for="inputPassword4">Password <span class="text-danger">*</span></label>
-                    <input required type="password" class="form-control" id="inputPassword4" placeholder="Password">
+                <div class="form-group mb-3">
+                    <label for="lastname">Last Name <span class="text-danger">*</span></label>
+                    <input required type="text" class="form-control" id="lastname" placeholder="Enter your last name">
                 </div>
-            </div>
-            <label class="my-1 mr-2" for="language">Language <span class="text-danger">*</span></label>
-            <select required class="custom-select my-1 mr-sm-2 mb-3" id="language">
-                <option selected>Choose...</option>
-                <option value="1">English</option>
-                <option value="2">Yoruba</option>
-                <option value="3">Hausa</option>
-            </select>
-
-            <label class="my-1 mr-2" for="timezone">Timezone</label>
-            <select class="custom-select my-1 mr-sm-2 mb-3" id="timezone">
-                <option selected>Choose...</option>
-                <option value="1">GMT +1</option>
-                <option value="2">GMT +2</option>
-                <option value="3">GMT +3</option>
-            </select>
-
-            <div class="form-row ">
-                <div class="col-md-6 mb-3">
-                    <label for="validationCustom04">State</label>
-                    <input type="text" class="form-control" id="validationCustom04" placeholder="State" required>
-                    <div class="invalid-feedback">
-                    Please provide a valid state.
+    
+                <div class="form-row">
+                    <div class="form-group col-md-6 mb-3">
+                        <label for="email">Email <span class="text-danger">*</span></label>
+                        <input required type="email" class="form-control" id="email" placeholder="Email">
+                    </div>
+                    <div class="form-group col-md-6 mb-3">
+                        <label for="inputPassword4">Password <span class="text-danger">*</span></label>
+                        <input required type="password" class="form-control" id="inputPassword4" placeholder="Password">
                     </div>
                 </div>
-                <div class="col-md-6 mb-3">
-                    <label for="validationCustom03">City</label>
-                    <input type="text" class="form-control" id="validationCustom03" placeholder="City" required>
-                    <div class="invalid-feedback">
-                    Please provide a valid city.
+                <label class="my-1 mr-2" for="language">Language <span class="text-danger">*</span></label>
+                <select required class="custom-select my-1 mr-sm-2 mb-3" id="language">
+                    <option selected>Choose...</option>
+                    <option value="1">English</option>
+                    <option value="2">Yoruba</option>
+                    <option value="3">Hausa</option>
+                </select>
+    
+                <label class="my-1 mr-2" for="timezone">Timezone</label>
+                <select class="custom-select my-1 mr-sm-2 mb-3" id="timezone">
+                    <option selected>Choose...</option>
+                    <option value="1">GMT +1</option>
+                    <option value="2">GMT +2</option>
+                    <option value="3">GMT +3</option>
+                </select>
+    
+                <div class="form-row ">
+                    <div class="col-md-6 mb-3">
+                        <label for="validationCustom04">State</label>
+                        <input type="text" class="form-control" id="validationCustom04" placeholder="State" required>
+                        <div class="invalid-feedback">
+                        Please provide a valid state.
+                        </div>
                     </div>
+                    <div class="col-md-6 mb-3">
+                        <label for="validationCustom03">City</label>
+                        <input type="text" class="form-control" id="validationCustom03" placeholder="City" required>
+                        <div class="invalid-feedback">
+                        Please provide a valid city.
+                        </div>
+                    </div>
+    
+                    <button type="submit" class="btn btn-primary btn-md btn-block mt-3 mb-3">Register</button>
+                    
                 </div>
-
-                <button type="submit" class="btn btn-primary btn-md btn-block mt-3 mb-3">Register</button>
-                
+    
+                </form>
+    
+                <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+                © 2022 Copyright:
+                <a class="text-reset fw-bold" href="https://jizatechnologies/">All rights Reserved.</a>
+                </div>
+    
             </div>
-
-            </form>
-
-            <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
-            © 2022 Copyright:
-            <a class="text-reset fw-bold" href="https://jizatechnologies/">All rights Reserved.</a>
             </div>
-
-        </div>
         </div>
     </div>
             
