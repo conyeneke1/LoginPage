@@ -1,3 +1,7 @@
+body {
+    background-color: #000;
+}
+
 .card-body {
     background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("images/tech3.jpg");
     height: 100%;
