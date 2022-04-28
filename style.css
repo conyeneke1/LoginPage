@@ -1,0 +1,20 @@
+body {
+    background-color: #000;
+}
+
+.card-body {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("images/tide.jpg");
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.btn {
+    border-radius: 0.7rem;
+}
+
+.btn:hover {
+    border-radius: 0;
+}
